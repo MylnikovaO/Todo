@@ -1,0 +1,39 @@
+.content {
+  width: 700px;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  border: hidden;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+}
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+@media (max-width: 280px) {
+  .content {
+    width: 250px;
+    margin-top: 20px;
+    padding: 5px;
+  }
+  .title {
+    font-size: 20px;
+  }
+}
+@media (min-width: 320px) and (max-width: 540px) {
+  .content {
+    width: 280px;
+    margin-top: 20px;
+    padding: 5px;
+  }
+  .title {
+    font-size: 22px;
+  }
+}
+@media (min-width: 541px) and (max-width: 768px) {
+  .content {
+    width: 650px;
+    margin-top: 20px;
+  }
+}
